@@ -1,15 +1,13 @@
 
 # Convert `markdown` to `pdf`
 
-## Convert `markdown` to `epub`
-
-### Use `pandoc`
+## Convert `markdown` to `epub` using `pandoc`
 
 ```bash
 pandoc contents/* -o book.epub --toc
 ```
 
-### Use `calibre`
+<!-- ### Use `calibre`
 
 #### Prepare the `markdown` files
 
@@ -38,7 +36,7 @@ ebook-convert content.md out.epub [options]
 * Output options
     - `--epub-inline-toc` (or `--epub-toc-at-end`): Add table of contents.
     - `--no-default-epub-cover`
-    - `--toc-title`
+    - `--toc-title` -->
 
 ## Convert `epub` to `pdf` using `calibre`
 
